@@ -5,6 +5,7 @@ import Head_pages from '@/component/Head_pages';
 import Information from '@/component/Information'
 import Gitt from '@/component/Gitt';
 import Contact from '@/component/Contact'
+import Carousel from '@/component/TextCarousel';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
           <Information></Information>
         </nav>
         <section>
+      <Carousel />
+      </section>
+        <section>
         <Gitt></Gitt>
       </section>
       <section>
@@ -24,9 +28,9 @@ export default function Home() {
       </section>
       <footer>
         <Info></Info>
-      </footer>
-      
+      </footer> 
     </>
     
   )
 }
+
