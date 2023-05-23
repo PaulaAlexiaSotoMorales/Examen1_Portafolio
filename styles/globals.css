@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -52,9 +53,6 @@ body {
   width: 120px;
   
 }
-.repos{
-  
-}
 .letra{
   
   font-weight:bolder;
@@ -64,6 +62,17 @@ body {
   margin-left: 90px;
   margin-top: 10px;
   color: #000000;
+}
+.perr{
+
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: 'Josefin_Sans';
+  width: 80%;
+  height: 280px;
 }
 img{
  
@@ -222,17 +231,7 @@ img{
   padding-top: 45px;
   
 }
-.perr{
 
-  background-color: rgb(255, 255, 255);
-  color: #000000;
-  margin-top: 40px;
-  margin-left: 150px;
-  margin-right: 150px;
-  font-family: 'Josefin_Sans';
-  width: 80%;
-  height: 280px;
-}
 .pag{
   background-color: rgb(255, 255, 255);
   margin-top: 40px;
@@ -271,7 +270,7 @@ img{
 .imgWhap{
   width: 50px; height: 50px;
   margin-bottom:20;
-  margin-top: 50px;
+  margin-top: -10%;
   margin-left: 31%;
   border-radius: 2px;
 }
@@ -294,7 +293,7 @@ img{
 .apps{
   background-color: rgb(255, 255, 255);
   
-  margin-top: 6px;
+  margin-top: -0%;
   margin-left: 400px;
   margin-right: 150px;
   font-family: 'Josefin_Sans';
@@ -323,12 +322,12 @@ img{
 .appssss{
   background-color: rgb(255, 255, 255);
   
-  margin-top: -5%;
+  margin-top: -4%;
   margin-left: 1000px;
   margin-right: 150px;
   font-family: 'Josefin_Sans';
-  width: 12%;
-  height: 18%;
+  width: 10%;
+  height: 14%;
 }
 
 
@@ -336,13 +335,13 @@ img{
   font-family: 'Josefin_Sans';
   font-size: 15px;
   margin-left: 35%;
-  margin-top:0.5%;
+  margin-top: -200%;
   color: #000000;
 }
 .imgGit{
   width: 50px; height: 50px;
   margin-bottom:20;
-  margin-top: -79px;
+  margin-top: -30%;
   margin-left: 35%;
   border-radius: 2px;
 }
@@ -356,7 +355,7 @@ img{
 .imgInst{
   width: 50px; height: 50px;
   margin-bottom:20;
-  margin-top: -70px;
+  margin-top: -30%;
   margin-left: 35%;
   border-radius: 2px;
 }
@@ -370,7 +369,7 @@ img{
 .imgLink{
   width: 50px; height: 50px;
   margin-bottom:20;
-  margin-top: -73px;
+  margin-top: -0%;
   margin-left: 35%;
   border-radius: 2px;
 }
@@ -385,7 +384,7 @@ img{
   
   width: 50px; height: 50px;
   margin-bottom:20;
-  margin-top: -70px;
+  margin-top: 10%;
   margin-left: 35%;
   border-radius: 2px;
 }
@@ -394,7 +393,7 @@ img{
   margin-left: 0%;
   color: rgb(0, 0, 0);
 }
-.subb{
+.subib{
   background-color: rgb(18, 168, 168);
   color: rgb(0, 0, 0);
   margin-top: -2%;
@@ -403,4 +402,19 @@ img{
   font-family: 'Josefin_Sans';
   width: 21%;
   height: 18%;
+}
+.titulo
+{
+  font-family: 'Josefin_Sans';
+  font-weight:bolder;
+  text-align: center;
+}
+.titulos
+{
+  font-family: 'Josefin_Sans';
+  
+  text-align: center;
+}
+.conp{
+  background-color: rgb(0, 0, 0);
 }
